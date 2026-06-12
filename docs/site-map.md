@@ -1,0 +1,30 @@
+# Site Map
+
+## Public Entry
+
+| Path | Purpose | Status |
+| --- | --- | --- |
+| `/` | Root entry, forwards to the current home page. | Active |
+| `/pages/home/` | Personal home page and main navigation hub. | Active |
+
+## Core Pages
+
+| Path | Purpose | Status |
+| --- | --- | --- |
+| `/pages/about/` | Personal introduction, background, focus areas, and contact direction. | Draft shell |
+| `/pages/resume/` | Resume-style page for work history, projects, skills, and downloadable resume links later. | Draft shell |
+| `/pages/blog/` | Blog index for essays, technical notes, and update posts. | Draft shell |
+
+## First-Version Boundary
+
+- The first version is a static personal site, not a full blog platform.
+- Pages should be useful even before a build system exists.
+- Blog posts can begin as standalone HTML or Markdown notes later; do not add a generator until there are enough posts to justify it.
+- Real personal details should be added deliberately and reviewed before publishing.
+
+## Naming Rules
+
+- Use lowercase folder names.
+- Prefer stable, human-readable paths: `about`, `resume`, `blog`, `projects`.
+- Each public page folder should have an `index.html`.
+- Shared images belong in `assets/images/`; page-specific images can use descriptive names such as `resume-headshot.jpg` or `blog-2026-06-title.jpg`.

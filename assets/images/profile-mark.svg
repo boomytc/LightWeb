@@ -1,0 +1,13 @@
+<svg width="960" height="960" viewBox="0 0 960 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LightWeb profile mark</title>
+  <desc id="desc">An editorial profile mark for the LightWeb personal site.</desc>
+  <rect width="960" height="960" fill="#F4F6F2"/>
+  <path d="M120 150H840V810H120V150Z" fill="#1F2623"/>
+  <path d="M168 198H792V762H168V198Z" fill="#F4F6F2"/>
+  <path d="M214 246H746V307H214V246Z" fill="#B94E34"/>
+  <path d="M214 360H746V414H214V360Z" fill="#1F2623"/>
+  <path d="M214 456H560V510H214V456Z" fill="#126A72"/>
+  <path d="M214 552H746V606H214V552Z" fill="#D6B03C"/>
+  <path d="M620 456H746V704H620V456Z" fill="#1F2623"/>
+  <path d="M214 672H560V704H214V672Z" fill="#1F2623"/>
+</svg>
