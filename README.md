@@ -4,8 +4,8 @@ LightWeb is a static-first workspace for personal web pages: a home page, person
 
 ## Current Shape
 
-- `index.html` redirects to the current home page.
-- `pages/home/` is the personal entry page.
+- `index.html` is the personal entry page.
+- `pages/home/` redirects to `/` for compatibility with earlier links.
 - `pages/about/` is the personal introduction page.
 - `pages/resume/` is the resume page.
 - `pages/blog/` is the blog index.

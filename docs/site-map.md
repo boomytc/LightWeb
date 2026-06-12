@@ -4,8 +4,8 @@
 
 | Path | Purpose | Status |
 | --- | --- | --- |
-| `/` | Root entry, forwards to the current home page. | Active |
-| `/pages/home/` | Personal home page and main navigation hub. | Active |
+| `/` | Personal home page and main navigation hub. | Active |
+| `/pages/home/` | Compatibility redirect to `/` for earlier links. | Legacy redirect |
 
 ## Core Pages
 
