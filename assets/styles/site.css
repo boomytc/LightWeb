@@ -267,6 +267,74 @@ button:focus-visible {
   border-left: 4px solid var(--gold);
 }
 
+.portfolio-section {
+  margin-top: 44px;
+}
+
+.project-list {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+
+.project-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 36px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-kicker {
+  margin: 0 0 8px;
+  color: var(--rust);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.project-item h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 2rem;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.project-item p {
+  max-width: 620px;
+  margin: 14px 0 0;
+}
+
+.project-meta {
+  display: grid;
+  align-content: start;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.project-meta div {
+  display: grid;
+  gap: 4px;
+}
+
+.project-meta dt {
+  color: var(--teal);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.project-meta dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.portfolio-next {
+  display: grid;
+  gap: 10px;
+}
+
 .site-footer {
   padding: 28px 0 44px;
   border-top: 1px solid var(--line);
@@ -290,7 +358,8 @@ button:focus-visible {
 
   .hero,
   .route-band,
-  .content-page {
+  .content-page,
+  .project-item {
     grid-template-columns: 1fr;
     gap: 28px;
   }

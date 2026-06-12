@@ -1,11 +1,12 @@
 # LightWeb
 
-LightWeb is a static-first workspace for personal web pages: a home page, personal introduction, resume, blog index, and future small public pages.
+LightWeb is a static-first workspace for personal web pages: a portfolio-first home page, personal introduction, resume, blog index, and future small public pages.
 
 ## Current Shape
 
 - `index.html` is the personal entry page.
 - `pages/home/` redirects to `/` for compatibility with earlier links.
+- `pages/projects/` is the portfolio overview page.
 - `pages/about/` is the personal introduction page.
 - `pages/resume/` is the resume page.
 - `pages/blog/` is the blog index.
